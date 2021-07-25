@@ -1,0 +1,138 @@
+.pageContentPreview {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+
+    background-color: #ec459f;
+    border-radius: 25px;
+    padding: 10px;
+
+    cursor: default;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.previewAvatarContainer {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 58px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    background-color: #48d273;
+    box-shadow: 0 0 0 7px #48d273;
+}
+.previewAvatar {
+    width: 75px;
+    height: 75px;
+
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.previewText {
+    position: absolute;
+
+    width: 365px;
+    height: 100px;
+    top: 131px;
+    font-size: 29px;
+    font-weight: bold;
+
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    line-height: 1.1;
+}
+
+.previewUser {
+    position: absolute;
+
+    top: 272px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.previewUsername {
+    max-width: 325px;
+    font-size: 22px;
+    font-weight: normal;
+
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.previewDiscriminator {
+    font-size: 23.5px;
+    font-weight: normal;
+    text-align: center;
+
+    color: #ffffff;
+    filter: opacity(50%);
+}
+
+.previewReactionContainer {
+    position: absolute;
+    top: 310px;
+    width: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 3px;
+    gap: 4px;
+    justify-content: center;
+}
+.previewReaction {
+    width: 49px;
+    height: 21px;
+    
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #ffffff80;
+}
+.previewReactionEmoji {
+    width: 15px;
+    height: 15px;
+
+    margin-left: 6px;
+}
+.previewReactionCount {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.previewDiscord {
+    position: absolute;
+
+    width: 161px;
+    top: 340px;
+
+    fill: #ffffff;
+}

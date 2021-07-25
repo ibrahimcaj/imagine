@@ -1,0 +1,70 @@
+.pageContainer {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.pageInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pageIcon {
+    height: 50px;
+    width: 50px;
+
+    fill: #ffffff;
+}
+.pageTitle {
+    font-size: 15px;
+    font-weight: bold;
+
+    margin: 0px;
+    margin-top: 5px;
+}
+.pageDescription {
+    font-size: 10px;
+    font-weight: 100;
+
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.pageContent {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+@media screen and (max-width: 1016px) {
+    .pageContent {
+        flex-direction: column;
+    }
+}
+
+.pageCredits {
+    font-family: Ginto, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    font-size: 12.5px;
+    color: #76797f;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.smallPageCredits {
+    font-size: 12.5px;
+    color: #76797f;
+}
