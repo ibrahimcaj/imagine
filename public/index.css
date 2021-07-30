@@ -3,7 +3,7 @@
     src: url('../assets/fonts/ginto-bold-webfont.otf') format("otf"),
         url('../assets/fonts/ginto-bold-webfont.woff2') format('woff2'),
         url('../assets/fonts/ginto-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bolder;
     font-style: normal;
 
 }
@@ -13,7 +13,7 @@
     src: url('../assets/fonts/ginto-medium-webfont.otf') format("otf"),
          url('../assets/fonts/ginto-medium-webfont.woff2') format('woff2'),
          url('../assets/fonts/ginto-medium-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
