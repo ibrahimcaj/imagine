@@ -1,17 +1,33 @@
-@font-face{
-    font-family: "Ginto";
-    src: url(fonts/Ginto-Regular.otf) format("otf");
+@font-face {
+    font-family: 'GintoBold';
+    src: url('assets/fonts/ginto-bold-webfont.otf') format("otf"),
+        url('assets/fonts/ginto-bold-webfont.woff2') format('woff2'),
+        url('assets/fonts/ginto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face{
-    font-family: "Ginto-Medium";
-    src: url(fonts/Ginto-Medium.otf) format("otf");
+@font-face {
+    font-family: 'GintoMedium';
+    src: url('assets/fonts/ginto-medium-webfont.otf') format("otf"),
+         url('assets/fonts/ginto-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/ginto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face{
-    font-family: "Ginto-Bold";
-    src: url(fonts/Ginto-Bold.otf) format("otf");
+@font-face {
+    font-family: 'Ginto';
+    src: url('assets/fonts/ginto-regular-webfont.otf') format("otf"),
+         url('assets/fonts/ginto-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/ginto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 body {
     font-family: Ginto, Helvetica Neue, Helvetica, Arial, sans-serif;
