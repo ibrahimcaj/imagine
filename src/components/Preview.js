@@ -2,7 +2,6 @@ import React from 'react';
 
 import { BRIGHTCOLORS, STATE } from '../utility/Constants';
 
-import '../index.css';
 import '../stylesheets/Preview.css';
 
 var currentComponent = null;

@@ -8,7 +8,6 @@ import Input from './components/Input';
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 // import reportWebVitals from './other/reportWebVitals';
 
-import './index.css';
 import './stylesheets/Preview.css';
 import './stylesheets/Page.css';
 

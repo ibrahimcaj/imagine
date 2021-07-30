@@ -3,10 +3,9 @@ import { toPng } from 'html-to-image';
 import { saveAs } from 'file-saver';
 
 import Preview from './Preview';
-
-import '../index.css';
-import '../stylesheets/Input.css';
 import { REGEX, COLORS, EXPORT, PLACEHOLDER } from '../utility/Constants';
+
+import '../stylesheets/Input.css';
 
 class Input extends React.Component {
     setColor(color) {
