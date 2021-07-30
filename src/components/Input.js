@@ -36,9 +36,7 @@ class Input extends React.Component {
         this.forceUpdate();
     }
     updateReaction(index, value) {
-        console.log(index, value);
         var reactions = Preview.prototype.getState().reactions;
-        console.log(reactions)
 
         if (isNaN(parseInt(value))) {
             reactions[index].emoji = { raw: value, id: (value.match(REGEX.EMOJI) ? value.match(REGEX.EMOJI)[0] : null) };
@@ -50,7 +48,6 @@ class Input extends React.Component {
 
             reactions[index].count = value;
         }
-        console.log(reactions)
 
         Preview.prototype.updateState({ reactions: reactions });
         this.forceUpdate();
