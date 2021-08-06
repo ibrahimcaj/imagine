@@ -1,27 +1,27 @@
 @font-face {
     font-family: Ginto;
-    src: url(./fonts/otf/ginto-regular.otf),
-    url(./fonts/ttf/ginto-regular.ttf),
-    url(./fonts/woff/ginto-regular.woff),
-    url(./fonts/woff2/ginto-regular.woff2);
+    src: url(https://ownershub.xyz/assets/fonts/otf/ginto-regular.otf),
+    url(https://ownershub.xyz/assets/fonts/ttf/ginto-regular.ttf),
+    url(https://ownershub.xyz/assets/fonts/woff/ginto-regular.woff),
+    url(https://ownershub.xyz/assets/fonts/woff2/ginto-regular.woff2);
     font-weight: lighter;
 }
 
 @font-face {
     font-family: Ginto;
-    src: url(./fonts/otf/ginto-medium.otf),
-    url(./fonts/ttf/ginto-medium.ttf),
-    url(./fonts/woff/ginto-medium.woff),
-    url(./fonts/woff2/ginto-medium.woff2);
+    src: url(https://ownershub.xyz/assets/fonts/otf/ginto-medium.otf),
+    url(https://ownershub.xyz/assets/fonts/ttf/ginto-medium.ttf),
+    url(https://ownershub.xyz/assets/fonts/woff/ginto-medium.woff),
+    url(https://ownershub.xyz/assets/fonts/woff2/ginto-medium.woff2);
     font-weight: normal;
 }
 
 @font-face {
     font-family: Ginto;
-    src: url(./fonts/otf/ginto-bold.otf),
-    url(./fonts/ttf/ginto-bold.ttf),
-    url(./fonts/woff/ginto-bold.woff),
-    url(./fonts/woff2/ginto-bold.woff2);
+    src: url(https://ownershub.xyz/assets/fonts/otf/ginto-bold.otf),
+    url(https://ownershub.xyz/assets/fonts/ttf/ginto-bold.ttf),
+    url(https://ownershub.xyz/assets/fonts/woff/ginto-bold.woff),
+    url(https://ownershub.xyz/assets/fonts/woff2/ginto-bold.woff2);
     font-weight: bold;
 }
 
