@@ -79,14 +79,6 @@
     text-overflow: ellipsis;
     
 }
-.previewDiscriminator {
-    font-size: 23.5px;
-    font-weight: normal;
-    text-align: center;
-
-    color: #ffffff;
-    filter: opacity(50%);
-}
 
 .previewReactionContainer {
     position: absolute;

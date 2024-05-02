@@ -52,9 +52,8 @@ class Preview extends React.Component {
                     </p>
                     <div className="previewUser">
                         <span className="previewUsername" style={{ color: fillColor }}>
-                            {this.getState().username.length === 0 ? STATE.username : this.getState().username}
+                            @{this.getState().username.length === 0 ? STATE.username : this.getState().username}
                         </span>
-                        <span className="previewDiscriminator" style={{ color: fillColor }}>#{this.getState().discriminator}</span>
                     </div>
                     <div className="previewReactionContainer">
                         { reactionArray }

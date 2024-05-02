@@ -101,7 +101,7 @@ class Input extends React.Component {
                     <input type="text" className="inputText" placeholder={PLACEHOLDER} onChange={(e) => Preview.prototype.updateState({ text: e.target.value })} />
                     
                     <p className="inputTitle">Username</p>
-                    <input type="text" className="inputText" placeholder={PLACEHOLDER} onChange={(e) => Preview.prototype.updateState({ username: e.target.value })} />
+                    <input type="text" className="inputText" placeholder={PLACEHOLDER} onChange={(e) => Preview.prototype.updateState({ username: e.target.value.toLowerCase() })} />
 
                     <p className="inputTitle">Reactions</p>
                     <div className="reactionContainer">

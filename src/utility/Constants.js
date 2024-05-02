@@ -18,8 +18,7 @@ module.exports.BRIGHTCOLORS = [
 module.exports.STATE = {
     color: this.COLORS.FUCHSIA,
     avatar: null,
-    username: 'Username',
-    discriminator: '0000',
+    username: 'username',
     text: 'Imagine a place where...',
     reactions: []
 }
