@@ -8,7 +8,7 @@ class Page extends React.Component {
         return (
             <React.StrictMode>
                 <p className="pageCredits">
-                    Page created by Vanished (<a href="https://github.com/vanishedvan">GitHub</a>)
+                    Page created by <a href="https://github.com/ibrahimcaj">@ibrahimcaj</a>
                     <br />
                     This website is not affiliated with Discord.
                 </p>
